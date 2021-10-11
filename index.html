@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<<html>
+<html>
     <head>
         <!-- Required meta tags always come first -->
         <meta charset="utf-8" />
@@ -7,14 +7,88 @@
     
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+        
+
         <title>Lilac Milk Co.</title>
     </head>
     <body>
-        <header>
+        <header class="jumbotron jumbotron-fluid">
             <h1>Lilac Milk Co.</h1>
         </header>
-       
+
+        <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+            <div class="container">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nucampNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <div class="row">
+        <div class="col-md-3">
+            <section class="panel">
+                <div class="panel-body">
+                    <input type="text" placeholder="Keyword Search" class="form-control" />
+                </div>
+            </section>
+            <section class="panel">
+                <header class="panel-heading">
+                    Category
+                </header>
+            </section>
+            <div class="panel-body">
+                <ul class="nav">
+                    <li>      
+                        <ul class="unstyled">
+                            <li><a href="#">Dangles</a></li>
+                            <li><a href="#">Studs</a></li>
+                            <li><a href="#">Maxi Studs</a></li>
+                            <li><a href="#">Hair Clips</a></li>
+                            <li><a href="#">Bracelets</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary">Add To Cart</a>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secondary">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+            
+        
        <footer>
 
        </footer>

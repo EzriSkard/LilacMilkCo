@@ -1,0 +1,41 @@
+h1 {
+    font-family: "Lobster", cursive; 
+    font-size:75px;
+    text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255);}
+
+.jumbotron  {
+    background-image: linear-gradient(45deg, #f778ec 25%, transparent 25%), linear-gradient(-45deg, #f778ec 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #f778ec 75%), linear-gradient(-45deg, transparent 75%, #f778ec 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+    margin: 0px;
+    padding: 30px;
+  }
+
+  body {
+    background-color:#f778ec ;
+  }
+
+  .navbar {
+      background-color: #f7f578;
+  }
+
+.card {
+    background-color:rgb(255, 255, 255);
+    margin: 30px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10%;
+    : slategray;
+}
+
+.card-text {
+    color: #f778ec; 
+}
+
+.panel {
+    background-color: snow;
+    margin-top: 10px;
+}
+
+.panel-body {
+    background-color: snow;
+}
